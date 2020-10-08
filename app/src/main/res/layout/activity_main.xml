@@ -15,15 +15,16 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp" />
 
-    <Button
-        android:id="@+id/add"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
         android:layout_margin="12dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="26dp"
-        android:backgroundTint="@color/colorAccent"
-        android:src="@drawable/ic_add" />
+
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_add"
+        tools:ignore="VectorDrawableCompat" />
 
 </RelativeLayout>
